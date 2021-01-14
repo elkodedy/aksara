@@ -1,0 +1,124 @@
+
+        /*// Medium devices (tablets, 768px and up)*/
+        @media (max-width: 768px) {
+            .font-60{
+                font-size: 40px;
+            }
+            /*landing*/
+            #home{
+                height: 88vh;
+                width: 100vw;
+            }
+            .landing{
+                height: 100%;
+                margin-left: 0;
+            }
+            .bigText{
+                left: 19%;
+            }
+            .bt-1{
+                font-size: 25px;
+            }
+            .e{
+                font-size: 12px;
+                letter-spacing: 0.1em;
+            }
+            .more{
+                font-size: 12px;
+            }
+
+            /*nav*/
+            .navbar-brand{
+                font-size: 40px;
+                width: 50%;
+                margin: 0 0 0 0;
+                text-align: left;
+
+            }
+            .collapse{
+                margin: 0 20px;
+                text-align: center;
+                width: 100% !important;
+            }
+            .nav{
+                float: right;
+                background-color: #F8F8F8;
+                height: auto;
+                line-height: 40px;
+            }
+            .nav a{
+                /*text-align: left;*/
+                margin: 50px 24%;
+            }
+            .navbar-toggle{
+                margin: 10px 0 30px 0;
+            }
+            /*fasilitas*/
+            .fasilitas1, .fasilitas2, .fasilitas3{
+                height: 40vh;
+                margin-bottom: 2vh;
+                width: 100%;
+                font-size: 15px;
+            }
+            .More{
+                font-size: 10px;
+            }
+            .tback{
+                font-size: 10px;
+                top: 30vh;
+            }
+            .mnframe1  {
+                width: 100%;
+                margin: 20px auto;
+                position: static;
+            }
+
+            .mnframe2, .mnframe3, .mnframe4, .mnframe5, .mnframe6, {
+                margin: 20px auto;
+            }
+            .tf1, .tf2, .tf3, .tf4, .tf5, .tf6{
+                font-size: 12px;
+                overflow: sc
+            }
+
+            /*testimoni*/
+            .layar{
+                font-size: 12px;
+                width: 100%;
+                height: 85vh;
+                margin: 2vh 0;
+                /*overflow: scroll;*/
+            }
+            .kanan2 h2{
+                font-size: 18px;
+            }
+            /*visi misi*/
+            .about1{
+                margin-left: 0;
+                width: 100vw;
+            }
+            .photoprofil{
+                width: 50vw;
+                height: 100vh;
+            }
+            .keterangan{
+                width: 50vw;
+                height: 100vh;
+            }
+            .vm{
+                font-size: 25px; 
+                padding: 1em;
+            }
+            .vm-text{
+                padding: 1.5em; 
+                font-size: 12px;
+            }
+
+            /*footer*/
+            .fooBut{
+                font-size: 15px;
+            }
+            .fooP{
+                font-size: 10px;
+            }
+        }
